@@ -8,5 +8,9 @@ package com.miaoqi.datastructure.heap;
  * @author miaoqi
  * @date 2019-06-18
  */
-public interface Heap {
+public class Heap {
+
+    public static void main(String[] args){
+    }
+
 }
