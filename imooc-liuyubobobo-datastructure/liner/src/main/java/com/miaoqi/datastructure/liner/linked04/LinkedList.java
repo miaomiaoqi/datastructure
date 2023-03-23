@@ -210,16 +210,29 @@ public class LinkedList<E> {
         // prev -> cur -> next
         // dummyHead -> node1 -> node2 -> node3 -> node4 -> NULL
         // NULL <- node1 <- node2 <- node3 <- node4 <- dummyHead
-        Node prev = this.dummyHead.next;
-        Node cur = prev.next;
+        // Node prev = this.dummyHead.next;
+        // Node cur = prev.next;
+        // while (cur != null) {
+        //     Node next = cur.next;
+        //     cur.next = prev;
+        //     prev = cur;
+        //     cur = next;
+        // }
+        // this.dummyHead.next.next = null;
+        // this.dummyHead.next = prev;
+
+
+        Node next = this.dummyHead.next;
+        Node cur = next.next;
         while (cur != null) {
-            Node next = cur.next;
-            cur.next = prev;
-            prev = cur;
-            cur = next;
+            Node prev = cur.next;
+            cur.next = next;
+            next = cur;
+            cur = prev;
         }
+
         this.dummyHead.next.next = null;
-        this.dummyHead.next = prev;
+        this.dummyHead.next = next;
     }
 
 
