@@ -12,6 +12,7 @@
         <module>array</module>
         <module>queue</module>
         <module>linkedlist</module>
+        <module>stack</module>
     </modules>
 
     <properties>
