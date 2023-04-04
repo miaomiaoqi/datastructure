@@ -13,6 +13,7 @@
         <module>queue</module>
         <module>linkedlist</module>
         <module>stack</module>
+        <module>recursion</module>
     </modules>
 
     <properties>
