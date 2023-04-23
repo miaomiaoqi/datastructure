@@ -14,6 +14,8 @@
         <module>linkedlist</module>
         <module>stack</module>
         <module>recursion</module>
+        <module>hashtab</module>
+        <module>atguigu-tree</module>
     </modules>
 
     <properties>

@@ -138,7 +138,7 @@ public class SingleLinkedListDemo {
     }
 
     /**
-     * 双指针法
+     * 双指针法, 此处 head 为无效数据
      *
      * @author miaoqi
      * @date 2023-03-30 2:53:50
